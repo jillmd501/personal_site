@@ -2,7 +2,7 @@
 $primary-color: color("teal", "lighten-2") !default;
 @import 'materialize';
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
-@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,700,700italic,300);
 
 .navbar-fixed {
   color: transparent;
@@ -21,6 +21,10 @@ h2 {
 }
 h5 {
   font-family: 'Josefin Slab', serif;
+}
+h4 {
+  font-family: 'Josefin Slab', serif;
+  font-size: 2.8rem;
 }
 p {
   font-size: 1.3rem;
