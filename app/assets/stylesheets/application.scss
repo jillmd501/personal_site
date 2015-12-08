@@ -1,0 +1,35 @@
+@import "materialize/components/color";
+$primary-color: color("teal", "lighten-2") !default;
+@import 'materialize';
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,700,300);
+
+.navbar-fixed {
+  color: transparent;
+  opacity: 0.6;
+  font-family: 'Satisfy', cursive;
+}
+blockquote {
+  font-family: 'Josefin Slab', cursive;
+  font-size: 1.7rem
+}
+.brand-logo {
+  font-family: 'Satisfy', cursive;
+}
+h2 {
+  font-family: 'Satisfy', cursive;
+}
+h5 {
+  font-family: 'Josefin Slab', serif;
+}
+p {
+  font-size: 1.3rem;
+}
+a {
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.3rem;
+}
+#bio {
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.5rem
+}

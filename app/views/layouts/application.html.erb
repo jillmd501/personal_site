@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JillDonohue</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<div class="navbar-fixed">
+<nav>
+  <div class="nav-wrapper">
+    <a href="/" class="brand-logo center"> Jill Donohue</a>
+    <ul class="right hide-on-med-and-down">
+      <li class="active"><a href="/contact">Let's Chat</a></li>
+    </ul class="left hide-on-med-and-down">
+    <ul>
+      <li><a href="/about">About Me</a></li>
+      <li><a href="/resume">Resume</a></li>
+    </ul>
+  </div>
+</nav>
+</div>
+
+<%= yield %>
+
+</body>
+</html>
