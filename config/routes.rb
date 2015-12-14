@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get "/about", to: "welcome#about"
   get "/contact", to: "welcome#contact"
   get "/skills", to: "welcome#skills"
+  get "/portfolio", to: "welcome#portfolio"
 end
